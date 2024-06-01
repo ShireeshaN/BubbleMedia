@@ -38,6 +38,7 @@
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
     });
+    
     $('#portfolio-flters li').on('click', function () {
         $("#portfolio-flters li").removeClass('active');
         $(this).addClass('active');
