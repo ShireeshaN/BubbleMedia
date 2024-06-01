@@ -1,10 +1,12 @@
 /******* Bootstrap Theming ********/
-/*!
+/*
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -43,7 +45,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Space Grotesk";
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -6356,7 +6358,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FFAA17 !important;
+  background-color: #FCDB67 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9774,7 +9776,8 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FFAA17;
+  color: #000000;
+  border-bottom: 1px solid #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -9952,4 +9955,14 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+
+/* Home Page */
+.contact-us-btn{
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border: none;
+  padding: 11px 30px 11px 30px;
+  border-radius: 10px;
 }
