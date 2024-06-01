@@ -364,7 +364,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "space grotesk" "Oswald", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #222429;
@@ -9972,8 +9972,26 @@ h6,
   background-image: url('/img/bg-home-handrawn-2.jpg');
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  padding-block: 10px;
 }
 
 .img-border{
   bottom: 10px solid #000;
+}
+.floating-content{
+  background-color: #fff;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -9%;
+  left: 10%;
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.floating-content img{
+  width: calc(25%);
+  border-radius: 17px;
 }
