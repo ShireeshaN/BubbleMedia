@@ -9972,7 +9972,7 @@ h6,
   background-image: url('/img/bg-home-handrawn-2.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   padding-block: 10px;
 }
 
@@ -9995,3 +9995,22 @@ h6,
   width: calc(25%);
   border-radius: 17px;
 }
+.dots{
+  width: 100px;
+  height: auto;
+  align-self: flex-start;
+  position: absolute;
+  left: 20%;
+  top: -500%;
+  z-index: 999;
+}
+
+.star{
+  width: 50px;
+  height: auto;
+  align-self: flex-start;
+  position: absolute;
+  top: -280%;
+  right: 20%;
+}
+
