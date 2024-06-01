@@ -9973,7 +9973,7 @@ h6,
   background-size: cover;
   background-position: center;
   min-height: 100vh;
-  padding-block: 10px;
+  padding-block: 150px;
 }
 
 .img-border{
@@ -9983,12 +9983,19 @@ h6,
   background-color: #fff;
   border-radius: 20px;
   position: absolute;
-  bottom: -9%;
+  bottom: 0;
   left: 10%;
   padding: 20px;
   display: flex;
   justify-content: start;
   align-items: center;
+}
+@media (max-width:992px){
+  .floating-content{
+    left: 12%;
+    padding: 10px;
+    width: 50%;
+  }
 }
 
 .floating-content img{
@@ -10014,3 +10021,6 @@ h6,
   right: 20%;
 }
 
+.smm-container{
+  background:  url('/img/smm-home-bg.png') center, #fcdb67;
+}
