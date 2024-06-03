@@ -10108,3 +10108,8 @@ h6,
   color: #FFD43B; 
   font-size: 25px;
 }
+.border-img{
+  border: 12px solid #000;
+   border-radius: 30px;
+   object-fit: contain;
+}
