@@ -9996,7 +9996,7 @@ h6,
   .floating-content{
     left: 12%;
     padding: 10px;
-    width: 50%;
+    width: 75%;
   }
 }
 
@@ -10036,6 +10036,11 @@ h6,
   color: #1f1f1f;
 }
 
+@media (width < 992px){
+  .contact-btn{
+    padding: 5px 10px;
+  }
+}
 .smm-container{
   background:  url('/img/smm-home-bg.png') center, #fcdb67;
   border-top-right-radius: 10px;
@@ -10098,4 +10103,8 @@ h6,
   color: #000;
   font-size: 18px;
   text-align: justify;
+}
+.star-icon{
+  color: #FFD43B; 
+  font-size: 25px;
 }
