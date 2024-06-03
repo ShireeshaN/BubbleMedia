@@ -267,7 +267,7 @@
                         Success Guarantee
                     </p>
                 </div>
-                <div class="d-flex align-items-center">
+                <div class="btns-container d-flex align-items-center">
                     <a href="" class="btn btn-dark started-btn text-uppercase mt-1 px-5 mr-2">Get Started</a>
                     <a href="" class="btn btn-dark contact-btn text-uppercase mt-1 px-5 mr-2">Contact Us</a>
                     <!-- <img src="/img/arrow-2.png" alt="arrow" class="pt-5 mt-5 d-none d-lg-block"> -->
@@ -275,6 +275,18 @@
             </div>
         </div>
     </div>
+
+    <style>
+        .btns-container{
+            display: flex;
+            flex-direction: row;
+        }
+        @media (width < 992px){
+            .btns-container{
+                flex-direction: column;
+            }
+        }
+    </style>
 
     <!--Ceo's message-->
 
