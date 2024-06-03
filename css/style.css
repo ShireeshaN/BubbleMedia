@@ -9994,6 +9994,7 @@ h6,
 }
 @media (max-width:992px){
   .floating-content{
+    bottom: 0;
     left: 12%;
     padding: 10px;
     width: 75%;
