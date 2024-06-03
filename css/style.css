@@ -9843,7 +9843,7 @@ h6,
 }
 
 .page-header {
-  height: 400px;
+  height: 280px;
   /* margin-bottom: 90px; */
 }
 
@@ -10072,6 +10072,37 @@ h6,
 .check-icon{
   font-size: 20px;
   color: #1f1f1f;
+}
+
+
+.twitter-service{
+  font-size: 27px;
+  font-weight: 600;
+  /* line-height: 1.4rem; */
+}
+
+.twitter-head{
+  line-height: 1.4rem;
+}
+
+.twitter-div h2{
+  font-size: 45px;
+}
+.twitter-div p{
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 35px;
+  color: #000;
+}
+.twitter1-img{
+  height: 350px;
+  border-radius: 20%;
+}
+.twitter-para{
+  line-height: 2.4rem;
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
 }
 .star-icon{
   color: #FFD43B; 
