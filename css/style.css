@@ -10130,6 +10130,7 @@ h6,
   left: 10px;
   bottom: 10px;
 }
+
 .is-invalid {
   border-color: #dc3545;
 }
@@ -10150,3 +10151,10 @@ h6,
   background-size: cover;
   padding: 160px 0 60px 0;
 }
+.topbar-icon{
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
