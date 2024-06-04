@@ -10130,9 +10130,17 @@ h6,
   left: 10px;
   bottom: 10px;
 }
+
 .is-invalid {
   border-color: #dc3545;
 }
 .help-block.text-danger {
   color: #dc3545;
 }
+.topbar-icon{
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
