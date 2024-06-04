@@ -10156,5 +10156,13 @@ h6,
   color: #fff;
 }
 
-
-
+.topbar-section::before{
+  position: absolute;
+    content: "";
+    width: 60px;
+    height: 100%;
+    top: 0;
+    left: -50px;
+    background: #fcdb67;
+    transform: skew(-40deg);
+}
