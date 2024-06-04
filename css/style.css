@@ -9843,7 +9843,7 @@ h6,
 }
 
 .page-header {
-  height: 400px;
+  height: 280px;
   /* margin-bottom: 90px; */
 }
 
@@ -9985,7 +9985,7 @@ h6,
   background-color: #fff;
   border-radius: 20px;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 10%;
   padding: 20px;
   display: flex;
@@ -9994,6 +9994,7 @@ h6,
 }
 @media (max-width:992px){
   .floating-content{
+    bottom: 0;
     left: 12%;
     padding: 10px;
     width: 50%;
@@ -10036,6 +10037,11 @@ h6,
   color: #1f1f1f;
 }
 
+@media (width < 992px){
+  .contact-btn{
+    padding: 5px 10px;
+  }
+}
 .smm-container{
   background:  url('/img/smm-home-bg.png') center, #fcdb67;
   border-top-right-radius: 10px;
@@ -10067,4 +10073,108 @@ h6,
 .check-icon{
   font-size: 20px;
   color: #1f1f1f;
+}
+
+
+.twitter-service{
+  font-size: 27px;
+  font-weight: 600;
+  /* line-height: 1.4rem; */
+}
+
+.twitter-head{
+  line-height: 1.4rem;
+}
+
+.twitter-div h2{
+  font-size: 45px;
+}
+.twitter-div p{
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 35px;
+  color: #000;
+}
+.twitter1-img{
+  height: 350px;
+  border-radius: 20%;
+}
+.twitter-para{
+  line-height: 2.4rem;
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
+}
+.star-icon{
+  color: #FFD43B; 
+  font-size: 25px;
+}
+.border-img{
+  border: 12px solid #000;
+   border-radius: 30px;
+   object-fit: contain;
+}
+.bg-primary1{
+  background-image: url(/img/whatsapp.webp);
+}
+
+.bg-primary2{
+  background-image: url(/img/insta-bg.webp);
+
+}
+.whatsapp{
+  font-size: 2.0rem;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  color: #000;
+  z-index: 999;
+  background-color: var(--primary);
+  border-radius: 50%;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+.is-invalid {
+  border-color: #dc3545;
+}
+.help-block.text-danger {
+  color: #dc3545;
+}
+
+.bg-whatsapp{
+  background-color: #25D366;
+}
+.bg-instagram{
+   background-color: #e56969 !important;
+}
+.herosection {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/linkdin-herosection-1.avif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0 60px 0;
+}
+.herosection-t {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/twitter-herosection-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0 60px 0;
+}
+.topbar-icon{
+  font-size: 20px;
+  color: #fff;
+}
+
+.topbar-section::before{
+  position: absolute;
+    content: "";
+    width: 60px;
+    height: 100%;
+    top: 0;
+    left: -50px;
+    background: #fcdb67;
+    transform: skew(-40deg);
 }
