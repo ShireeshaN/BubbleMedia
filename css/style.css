@@ -10117,6 +10117,11 @@ h6,
 .bg-primary1{
   background-image: url(/img/whatsapp.webp);
 }
+
+.bg-primary2{
+  background-image: url(/img/insta-bg.webp);
+
+}
 .whatsapp{
   font-size: 2.0rem;
   padding: 5px;
@@ -10135,4 +10140,11 @@ h6,
 }
 .help-block.text-danger {
   color: #dc3545;
+}
+
+.bg-whatsapp{
+  background-color: #25D366;
+}
+.bg-instagram{
+   background-color: #e56969 !important;
 }
