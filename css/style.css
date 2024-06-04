@@ -10135,6 +10135,7 @@ h6,
   left: 10px;
   bottom: 10px;
 }
+
 .is-invalid {
   border-color: #dc3545;
 }
@@ -10147,4 +10148,33 @@ h6,
 }
 .bg-instagram{
    background-color: #e56969 !important;
+}
+.herosection {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/linkdin-herosection-1.avif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0 60px 0;
+}
+.herosection-t {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/twitter-herosection-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0 60px 0;
+}
+.topbar-icon{
+  font-size: 20px;
+  color: #fff;
+}
+
+.topbar-section::before{
+  position: absolute;
+    content: "";
+    width: 60px;
+    height: 100%;
+    top: 0;
+    left: -50px;
+    background: #fcdb67;
+    transform: skew(-40deg);
 }
