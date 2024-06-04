@@ -9985,7 +9985,7 @@ h6,
   background-color: #fff;
   border-radius: 20px;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 10%;
   padding: 20px;
   display: flex;
@@ -10113,4 +10113,23 @@ h6,
   border: 12px solid #000;
    border-radius: 30px;
    object-fit: contain;
+}
+.whatsapp{
+  font-size: 2.5rem;
+  padding: 5px;
+  width: 60px;
+  height: 60px;
+  color: #000;
+  z-index: 999;
+  background-color: var(--primary);
+  border-radius: 50%;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+.is-invalid {
+  border-color: #dc3545;
+}
+.help-block.text-danger {
+  color: #dc3545;
 }
