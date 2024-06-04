@@ -10164,17 +10164,18 @@ h6,
   padding: 160px 0 60px 0;
 }
 .topbar-icon{
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
+  padding: 10px;
 }
 
 .topbar-section::before{
   position: absolute;
     content: "";
-    width: 60px;
+    width: 106px;
     height: 100%;
     top: 0;
-    left: -50px;
+    left: -118px;
     background: #fcdb67;
     transform: skew(-40deg);
 }
