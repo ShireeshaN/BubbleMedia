@@ -10115,10 +10115,10 @@ h6,
    object-fit: contain;
 }
 .whatsapp{
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   padding: 5px;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   color: #000;
   z-index: 999;
   background-color: var(--primary);
