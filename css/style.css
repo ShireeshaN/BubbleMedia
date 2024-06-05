@@ -10118,7 +10118,7 @@ h6,
    object-fit: contain;
 }
 .bg-primary1{
-  background-image: url(/img/whatsapp.webp);
+  background-image: url(../img/whatsapp.webp);
 }
 
 .bg-primary2{
@@ -10161,7 +10161,7 @@ h6,
   background-color: #455b94;
 }
 .bg-facebook{
-  background-image: url(/img/facebook-bg.jpg);
+  background-image: url(../img/facebook-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
