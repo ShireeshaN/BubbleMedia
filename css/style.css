@@ -10220,7 +10220,7 @@ background-image: url(../img/LinkedIn2.webp);
 .topbar-section::before{
   position: absolute;
     content: "";
-    width: 120px;
+    width: 150px;
     height: 100%;
     top: 0;
     left: -125px;
