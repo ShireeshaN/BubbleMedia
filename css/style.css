@@ -10212,10 +10212,10 @@ background-image: url(../img/LinkedIn2.webp);
 .topbar-section::before{
   position: absolute;
     content: "";
-    width: 106px;
+    width: 120px;
     height: 100%;
     top: 0;
-    left: -118px;
+    left: -125px;
     background: #fcdb67;
     transform: skew(-40deg);
 }
