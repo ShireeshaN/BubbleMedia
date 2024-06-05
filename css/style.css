@@ -10159,6 +10159,18 @@ h6,
 .bg-primary3{
   background-color: 	#1877F2;
 }
+.bg-facebook{
+  background-image: url(/img/facebook-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 160px 0 60px 0;
+
+}
+
+.text-color{
+  color: #ffffff !important;
+}
 
 /* .bg-primary4{
   background-image: url(/img/facebook-bg.jpg);
