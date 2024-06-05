@@ -147,7 +147,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AMessage: ${message}`;
 
         // WhatsApp number (including country code, but without any "+" sign)
-        const whatsappNumber = "918500693113"; // Replace with your WhatsApp number
+        const whatsappNumber = "917013885821"; // Replace with your WhatsApp number
 
         // Construct the WhatsApp URL
         const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
