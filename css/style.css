@@ -10108,6 +10108,14 @@ h6,
   font-size: 18px;
   text-align: justify;
 }
+
+@media(max-width:992px){
+  .twitter-para{
+    line-height: 1.5rem;
+    font-size: 15px;
+    text-align: justify;
+  }
+}
 .star-icon{
   color: #FFD43B; 
   font-size: 25px;
