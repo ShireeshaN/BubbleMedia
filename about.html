@@ -22,6 +22,10 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -123,13 +127,50 @@
         </a>
     </div>
 
+    <!-- <div class="bubble-container">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        Add more bubble elements as needed
+      </div> -->
 
+      <style>
+        .bubble-container {
+  position: relative;
+  width: 200px; /* Adjust container size as needed */
+  height: 200px;
+  overflow: hidden; /* Hide overflow to keep bubbles within container */
+}
+
+.bubble {
+  position: absolute;
+  background-color: #ae4d96; /* Light blue color */
+  width: 20px; /* Diameter of the bubble */
+  height: 20px;
+  border-radius: 50%; /* Make it round */
+  animation: bubble-rise 5s infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes bubble-rise {
+  0% {
+    bottom: 0; /* Start at the bottom of the container */
+    opacity: 1; /* Fully visible */
+    transform: scale(1); /* Normal size */
+  }
+  100% {
+    bottom: 100%; /* Reach the top of the container */
+    opacity: 0; /* Fully transparent */
+    transform: scale(2); /* Double the size */
+  }
+}
+
+      </style>
 
     <!-- Page Header Start -->
     <div
         class="container-fluid bg-primary d-flex align-items-center justify-content-center py-5 position-relative h-100">
         <h1 class="display-3 text-uppercase mb-3">About</h1>
-        <img src="img/about-element.png" alt="about" class="about-img d-none d-lg-block">
+        <img src="img/about-element.png" alt="about" class="about-img d-none d-lg-block ">
 
     </div>
     <div class="position-relative d-flex flex-wrap justify-content-center align-items-center w-100 imgs-container">
