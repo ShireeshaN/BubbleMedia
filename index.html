@@ -297,8 +297,17 @@
                     growth and enhanced performance. Partner with us to unlock your full potential and thrive in a
                     competitive market.
                 </p>
-                <div>
-                    <p class="text-dark">
+                <ul class="tags-container">
+                    <li>
+                        Professional Team
+                    </li>
+                    <li>
+                        Target Oriented
+                    </li>
+                    <li>
+                        Success Guarantee
+                    </li>
+                    <!-- <p class="text-dark">
                         <i class="fa-solid fa-circle-check check-icon mr-2"></i>
                         Professional Team
                     </p>
@@ -309,8 +318,8 @@
                     <p class="text-dark">
                         <i class="fa-solid fa-circle-check check-icon mr-2"></i>
                         Success Guarantee
-                    </p>
-                </div>
+                    </p> -->
+                </ul>
                 <div class="btns-container d-flex align-items-center">
                     <a href="" class="btn btn-dark started-btn text-uppercase mt-1 px-5 mr-2">Get Started</a>
                     <a href="" class="btn btn-dark contact-btn text-uppercase mt-1 px-5 mr-2">Contact Us</a>
@@ -330,6 +339,26 @@
             .btns-container {
                 flex-direction: column;
             }
+        }
+        ul.tags-container {
+            list-style-type: none; /* Remove default bullets */
+            padding: 0;
+        }
+
+        ul.tags-container li {
+            position: relative; /* To position the icon */
+            padding-left: 25px; /* Space for the icon */
+            color: #1f1f1f;
+        }
+        ul.tags-container li::before {
+            content: "\f058"; /* Unicode for the Font Awesome check-circle icon */
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 1em; /* Adjust size as needed */
         }
     </style>
 
