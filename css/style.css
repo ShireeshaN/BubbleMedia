@@ -10091,6 +10091,13 @@ h6,
   /* line-height: 1.4rem; */
 }
 
+/* @media(max-width:992px){
+  .twitter-service{
+    text-align: center;
+    
+  }
+} */
+
 .twitter-head{
   line-height: 1.4rem;
 }
@@ -10145,7 +10152,7 @@ h6,
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 160px 0 60px 0;
+  /* padding: 160px 0 60px 0; */
 }
 .whatsapp{
   font-size: 2.0rem;
@@ -10183,12 +10190,28 @@ h6,
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 160px 0 60px 0;
+  /* padding: 160px 0 60px 0; */
 
 }
 
 .text-color{
   color: #ffffff !important;
+}
+
+
+
+
+@media(max-width:992px){
+  .twitter-img2{
+    margin-left: 0rem !important;
+  }
+}
+
+@media(max-width:992px){
+  .twitter-agency{
+    text-align: center !important;
+    font-size: 10px;
+  }
 }
 
 /* .bg-primary4{
@@ -10200,26 +10223,26 @@ background-image: url(../img/LinkedIn2.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 160px 0 60px 0;
+  /* padding: 160px 0 60px 0; */
 }
-@media(max-width: 991px;){
+/* @media(max-width: 991px){
   .herosection{
     height:500px;
   }
-}
+} */
 .herosection-t {
   background-image: url(../img/twitter-herosection-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 160px 0 60px 0;
+  /* padding: 160px 0 60px 0; */
 }
 .herosection-y {
   background-image:  url(../img/youtube-herosection-1.avif);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 160px 0 60px 0;
+  /* padding: 160px 0 60px 0; */
 }
 .topbar-icon{
   font-size: 18px;
@@ -10238,12 +10261,36 @@ background-image: url(../img/LinkedIn2.webp);
     transform: skew(-40deg);
 }
 
+@media(max-width:991px){
+  .twitter_bg{
+    text-align: center;
+  }
 .page-header h1{
   text-align: center;
 }
-
+}
 @media (max-width:992px){
   .bg-primary1{
     background-size: cover; background-position: center;
+  }
+}
+
+@media(max-width:992px){
+  .linkedin-service{
+    text-align: center;
+    font-size: 26px;
+  }
+}
+
+@media(max-width:992px){
+  .youtube-service{
+    font-size: 29px;
+    text-align: center;
+  }
+}
+@media(max-width:992px){
+  .twitter-advert{
+    font-size: 29px;
+    text-align: center;
   }
 }
