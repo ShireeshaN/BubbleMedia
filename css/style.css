@@ -10098,12 +10098,12 @@ h6,
 .twitter-div h2{
   font-size: 45px;
 }
-.twitter-div p{
+/* .twitter-div p{
   font-size: 20px;
   padding-top: 20px;
   line-height: 35px;
   color: #000;
-}
+} */
 .twitter1-img{
   height: 350px;
   border-radius: 20%;
@@ -10112,14 +10112,18 @@ h6,
   line-height: 2.4rem;
   color: #000;
   font-size: 18px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 @media(max-width:992px){
   .twitter-para{
     line-height: 1.5rem;
     font-size: 15px;
-    text-align: justify;
+    word-spacing: 5px;
+    text-align: left !important;
+  }
+  .twitter-div h2{
+    font-size: 30px;
   }
 }
 .star-icon{
@@ -10253,5 +10257,13 @@ background-image: url(../img/LinkedIn2.webp);
 @media(max-width:991px){
   .twitter_bg{
     text-align: center;
+  }
+.page-header h1{
+  text-align: center;
+}
+}
+@media (max-width:992px){
+  .bg-primary1{
+    background-size: cover; background-position: center;
   }
 }
