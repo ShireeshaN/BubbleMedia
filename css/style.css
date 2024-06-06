@@ -9781,7 +9781,8 @@ h6,
   /* border-bottom: 2px solid #fff; */
   border-radius: 30px 0 30px 0;
   background-color: white;
-  
+  width:90%;
+  text-align: center;
 }
 
 @media (max-width: 991.98px) {
@@ -9791,6 +9792,11 @@ h6,
   .navbar-light .navbar-nav.border-right {
     border-right: none !important;
   }
+  .navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  width: 25%;
+}
+
 }
 
 .service-item {
