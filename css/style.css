@@ -10294,3 +10294,8 @@ background-image: url(../img/LinkedIn2.webp);
     text-align: center;
   }
 }
+.logo-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
