@@ -102,3 +102,58 @@
     
 })(jQuery);
 
+// Contact form sending details to whatsapp
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent the form from submitting the traditional way
+
+    // Get form data
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const subject = document.getElementById("subject").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    // Validation
+    let valid = true;
+    if (!name) {
+        document.getElementById("name").classList.add("is-invalid");
+        valid = false;
+    } else {
+        document.getElementById("name").classList.remove("is-invalid");
+    }
+
+    if (!email) {
+        document.getElementById("email").classList.add("is-invalid");
+        valid = false;
+    } else {
+        document.getElementById("email").classList.remove("is-invalid");
+    }
+
+    if (!subject) {
+        document.getElementById("subject").classList.add("is-invalid");
+        valid = false;
+    } else {
+        document.getElementById("subject").classList.remove("is-invalid");
+    }
+
+    if (!message) {
+        document.getElementById("message").classList.add("is-invalid");
+        valid = false;
+    } else {
+        document.getElementById("message").classList.remove("is-invalid");
+    }
+
+    if (valid) {
+        // Construct the WhatsApp message
+        const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AMessage: ${message}`;
+
+        // WhatsApp number (including country code, but without any "+" sign)
+        const whatsappNumber = "917013885821"; // Replace with your WhatsApp number
+
+        // Construct the WhatsApp URL
+        const whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
+        // Redirect to the WhatsApp URL
+        window.location.href = whatsappURL;
+    }
+});
+
