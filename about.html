@@ -264,11 +264,10 @@
         <div class="container pt-5">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <iframe height="315" src="https://www.youtube.com/embed/XHOmBV4js_E?si=MFNTimQSyZs6TfHi"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded"
-                        style="width: 100%;"></iframe>
+                    <video id="myCanvas" class="video-player" loop autoplay muted preload="auto" style="width:100%">
+                        <source src="./img/Videos/BubblesMedia.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>                    
                 </div>
                 <div class="col-lg-6">
                     <h2>
@@ -545,6 +544,14 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+        var video = document.getElementById('myCanvas');
+        if (video) {
+            video.play();
+        }
+    });
+    </script>
 </body>
 
 </html>
