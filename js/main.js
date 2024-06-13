@@ -99,10 +99,8 @@
             }
         }
     });
-    
-})(jQuery);
 
-// Contact form sending details to whatsapp
+    // Contact form sending details to whatsapp
 document.getElementById("contactForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Prevent the form from submitting the traditional way
 
@@ -156,4 +154,6 @@ document.getElementById("contactForm").addEventListener("submit", function(event
         window.location.href = whatsappURL;
     }
 });
+    
+})(jQuery);
 
