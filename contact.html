@@ -241,38 +241,55 @@
             </div>
             <div class="col-lg-6 col-md-8 col-sm-10 px-0">
                 <div class="contact-form bg-white rounded p-5">
-                    <form id="contactForm" novalidate>
-                        <div class="form-row">
-                            <div class="col-md-6">
-                                <div class="control-group">
-                                    <input type="text" class="form-control bg-light border-0 p-4" id="name"
-                                        placeholder="Your Name" required />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="control-group">
-                                    <input type="email" class="form-control bg-light border-0 p-4" id="email"
-                                        placeholder="Your Email" required />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
+                    <form method="post" action="//submit.form" onSubmit="return validateForm();">
+                        <div  style="padding-bottom: 18px;">Enter Your Name<span style="color: red;"> *</span><br/>
+                        <input type="text" id="data_3" name="data_3"  class="form-control bg-light border-0 p-4"/>
                         </div>
-                        <div class="control-group">
-                            <input type="text" class="form-control bg-light border-0 p-4" id="subject"
-                                placeholder="Subject" required />
-                            <p class="help-block text-danger"></p>
+                        <div  style="padding-bottom: 18px;">Enter Your Email<span style="color: red;"> *</span><br/>
+                        <input type="text" id="data_4" name="data_4"  class="form-control bg-light border-0 p-4"/>
                         </div>
-                        <div class="control-group">
-                            <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message"
-                                placeholder="Message" required></textarea>
-                            <p class="help-block text-danger"></p>
+                    
+                        <div style="padding-bottom: 18px;">Enter Your Number<span style="color: red;"> *</span><br/>
+                        <input type="number" id="data_5" name="data_5"  class="form-control bg-light border-0 p-4"/>
                         </div>
-                        <div class="text-center">
-                            <button class="btn btn-primary text-uppercase py-3 px-5" type="submit"
-                                id="sendMessageButton">Send Message</button>
+                        <div style="padding-bottom: 18px;">Message<br/>
+                        <textarea id="data_6" false name="data_6"  rows="6" class="form-control bg-light border-0 py-3 px-4"></textarea>
                         </div>
-                    </form>
+                        <div style="padding-bottom: 18px;" class="text-center"><input name="skip_Submit" class="btn btn-primary text-uppercase py-3 px-5" value="Submit" type="submit"/></div>
+                        <div>
+                        <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+                        <script src="https://www.100forms.com/js/FORMKEY:QWCB9RQDWPXK" type="text/javascript"></script>
+                        </div>
+                        </form>
+                        
+                     
+                    
+                    <script type="text/javascript">
+                        function validateForm() {
+                        if (isEmpty(document.getElementById('data_3').value.trim())) {
+                        alert('Enter Your Name is required!');
+                        return false;
+                        }
+                        if (isEmpty(document.getElementById('data_4').value.trim())) {
+                        alert('Enter Your Email is required!');
+                        return false;
+                        }
+                        if (!validateEmail(document.getElementById('data_4').value.trim())) {
+                        alert('Enter Your Email must be a valid email address!');
+                        return false;
+                        }
+                        if (isEmpty(document.getElementById('data_5').value.trim())) {
+                        alert('Enter Your Number is required!');
+                        return false;
+                        }
+                        return true;
+                        }
+                        function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+                        function validateEmail(email) {
+                        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+                        return isEmpty(email) || re.test(email);
+                        }
+                        </script>
                 </div>
             </div>
         </div>
