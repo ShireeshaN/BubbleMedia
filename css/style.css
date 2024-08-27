@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 
 abbr[title],
@@ -10009,6 +10009,12 @@ h6,
   height: 100vh;
 
   /* padding-block: 150px; */
+}
+@media (max-width:768px){
+  .hero{
+    background-image: url('../img/hero-img-mobile.jpg');
+    background-position: center;
+  }
 }
 .img-border{
   bottom: 10px solid #000;
