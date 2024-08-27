@@ -10003,7 +10003,7 @@ h6,
   padding-block: 150px; */
 }
 .hero{
-  background-image: url('/img/hero-img.jpg');
+  background-image: url('../img/hero-img.jpg');
   background-size: cover;
   background-position:80% 0% center;
   height: 100vh;
