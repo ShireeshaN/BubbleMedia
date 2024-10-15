@@ -10010,17 +10010,20 @@ h6,
   padding-block: 150px; */
 }
 .hero{
-  background-image: url('../img/hero-img.jpg');
-  background-size: cover;
-  background-position:80% 0% center;
-  height: 100vh;
+  background-image: url('../img/bubbles-media-hero.png');
 
-  /* padding-block: 150px; */
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+  height: 120vh;
+
+ 
 }
 @media (max-width:768px){
   .hero{
-    background-image: url('../img/hero-img-mobile.jpg');
-    background-position: center;
+    /* background-image: url('../img/hero-img-mobile.jpg'); */
+    /* background-position: center; */
   }
 }
 .img-border{
