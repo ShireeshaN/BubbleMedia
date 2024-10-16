@@ -4385,7 +4385,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--light);
+  color: var(--dark);
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
@@ -9780,7 +9780,7 @@ h6,
   text-transform: uppercase;
   padding-inline: 15px;
   margin-right: 4px;
-  color: var(--light);
+  color: var(--dark);
   outline: none;
   letter-spacing: 3px;
 }
